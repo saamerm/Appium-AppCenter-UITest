@@ -29,17 +29,3 @@ These samples include the App specific steps documented here: https://docs.micro
 - [Appium Android Sample](Appium/Android) This sample includes an APK file and a pre-written Appium test suite prepared for running in AppCenter/Test. 
 
 - [Appium iOS Sample](Appium/iOS) This sample includes IPA & app files and a pre-written Appium test suite prepared for running in AppCenter/Test.
-
-## Xamarin.UITest
-This sample includes the App Center Test specific steps documented here: https://docs.microsoft.com/en-us/appcenter/test-cloud/uitest/
-
-- [Xamarin.UITest Android & iOS sample](Xamarin.UITest/UITestDemo) This Xamarin.Forms sample app is compatible with both iOS & Android; and includes a Xamarin.UITest project for the actual tests. 
-
-
-## Espresso
-This sample includes the App Center Test specific steps documented here: https://docs.microsoft.com/en-us/appcenter/test-cloud/preparing-for-upload/espresso
-
-## XCUITest 
-This sample includes the App Center Test specific steps documented here: https://docs.microsoft.com/en-us/appcenter/test-cloud/preparing-for-upload/xcuitest
-
-- [XCUITest sample](XCUITest/Buttons) This sample iOS App and XCUITest includes an Xcode project for an app and XCUITest written using Swift. It has a shell script for submitting the tests to App Center Test. This sample does not require any App Center specific extensions.
