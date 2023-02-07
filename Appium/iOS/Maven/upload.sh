@@ -1,6 +1,6 @@
 # Provide AppCenter/Test upload command & path to IPA.
 AppCenter_Test_Command='paste command here'
-app_path='../UITestDemo.ipa'
+app_path='../Sonesta.ipa'
 
 # Run using the command "sh upload.sh"
 Build_TestUpload_Command='mvn -DskipTests -P prepare-for-upload package'

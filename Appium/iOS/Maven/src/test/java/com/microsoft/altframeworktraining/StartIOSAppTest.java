@@ -46,7 +46,7 @@ public class StartIOSAppTest {
 //        capabilities.setCapability(MobileCapabilityType.APP, ipaPath);
 
 
-        capabilities.setCapability("bundleId","com.companyname.UITestDemo");
+        capabilities.setCapability("bundleId","sihc.ios.sonestaapp");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
 
         URL url = new URL("http://localhost:4723/wd/hub");
