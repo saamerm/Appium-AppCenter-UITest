@@ -44,3 +44,13 @@ See Also: [upload.sh](Maven/upload.sh)
 The sample app is the Xamarin.Forms iOS app sourcecode found in the Xamarin.UITest sample here: https://github.com/King-of-Spades/AppCenter-Test-Samples/tree/master/Xamarin.UITest/UITestDemo
 
 The sample was created using a Xamarin.Forms template project with Xamarin.UITest support added. Including or removing Xamarin.UITest has no effect on running Appium iOS tests against this sample according to our QA tests; so if you wish to build the same sample from the iOS source it should work normally. 
+
+## Saamer's personal notes
+
+Commands that actually worked
+
+First run this 
+`mvn -DskipTests -P prepare-for-upload package`
+Then run this
+`appcenter test run appium --app "Sonesta/Sonesta-2" --devices 815fdb40 --app-path Sonesta.ipa --test-series "master" --locale "en_US" --build-dir target/upload`
+where 815fdb40 is one device. It doesn't work with device sets
