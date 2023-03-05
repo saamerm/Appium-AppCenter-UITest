@@ -34,6 +34,7 @@ These samples include the App specific steps documented here: https://docs.micro
 1. Clone the repo and Open the terminal in the `Appium-Launch-iOS-Working` directory
 2. Install appcenter in your command line
 ```
+npm install appcenter-cli -g
 npm install appcenter -g
 ```
 3. Run this command to login
